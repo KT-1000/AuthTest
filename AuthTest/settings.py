@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'NxPY_Auth.urls'
+ROOT_URLCONF = 'AuthTest.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'NxPY_Auth.wsgi.application'
+WSGI_APPLICATION = 'AuthTest.wsgi.application'
 
 
 # Database

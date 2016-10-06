@@ -28,7 +28,7 @@ urlpatterns = [
         ),
     url(r'^logout/$',
         auth_views.logout,
-        {'next_page': 'login.html'},
+        {'next_page': 'home'},
         name="logout"
         ),
 ]
